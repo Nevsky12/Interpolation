@@ -5,7 +5,10 @@
 namespace interpolation
 {
 
-scalar newton(vec const &x, vec const &y, scalar const val) noexcept
+scalar newton( vec const &x
+             , vec const &y
+             , scalar const val
+             ) noexcept
 {
     scalar result = y[0];
 
