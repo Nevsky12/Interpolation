@@ -12,7 +12,7 @@ int main()
     auto const result    = interpolation::naturalSplineValue(resSpline, x0);
     auto const other     = interpolation::            newton(x, f_x, x0);
 
-    std::cout << "Newton         interpolation result: " << other  << std::endl;
+    std::cout << "Newton         interpolation result: " << other  << std::endl; // 0.326019
     std::cout << "Natural spline interpolation result: " << result << std::endl; // 0.327426
 
     return 0;
